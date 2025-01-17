@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="keywords" content="developer, ak-dev, ak dev, web developer, website" />
+    <meta name="description" content="AK-Developer is a young web developer." />
+    <meta name="theme-color" content="#8B0000" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ak-dev.is-a.dev" />
+    <meta property="og:title" content="AK Dev | Developer" />
+    <meta property="og:description" content="AK Dev. is a web developer." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Assets/favicon.png">
+    <title>Dr. Chickens Expert</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand nameNav" href="Assets/favicon.png"><img src="Assets/favicon.png" alt="AK"> Dr. Chickens Expert </a>
+          <button class="navbar-toggler" type="text" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"><br>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active customBtn" aria-current="page" onclick="theme()" id="theme"><button type="button" class="btn btn-primary">Change Theme</button></a>
+                <a class="nav-link active customNav" aria-current="page" href="#top">Home</a>
+                <a class="nav-link active customNav" aria-current="page" href="#chickens">Chickens</a>
+                <a class="nav-link active customNav" aria-current="page" href="#native">Native chickens</a>
+                <a class="nav-link active customNav" aria-current="page" href="#silkie">Silkie</a>
+                <a class="nav-link active customNav" aria-current="page" href="#broiler">Broiler</a>
+                <a class="nav-link active customNav" aria-current="page" href="#brahma">Brahma</a>
+                <a class="nav-link active customNav" aria-current="page" href="#plymouth">Plymouth Rock</a>
+                <a class="nav-link active customNav" aria-current="page" href="#sussex">Sussex</a>
+                <a class="nav-link active customNav" aria-current="page" href="#ayam-k">Ayam Kampong</a>
+                <a class="nav-link active customNav" aria-current="page" href="#ameraucana">Ameraucana</a>
+                <a class="nav-link active customNav" aria-current="page" href="#leghorn">Leghorn</a>
+                <a class="nav-link active customNav" aria-current="page" href="#ayam-c">Ayam Cemani</a>
+                <a class="nav-link active customNav" aria-current="page" href="#polish">Polish Chicken</a>
+                <a class="nav-link active customNav" aria-current="page" href="#rhode-red">Rhode Isle Red</a>
+                <a class="nav-link active customNav" aria-current="page" href="#indian-g">Indian Game</a>
+                <a class="nav-link active customNav" aria-current="page" href="#marans">Marans</a>
+                <a class="nav-link active customNav" aria-current="page" href="#orpington">Orpington</a>
+                <a class="nav-link active customNav" aria-current="page" href="#asil">Asil</a>
+                <a class="nav-link active customNav" aria-current="page" href="#shamo">Shamo</a>
+                <a class="nav-link active customNav" aria-current="page" href="#lohman">Lohman Brown</a>
+                <a class="nav-link active customNav" aria-current="page" href="#araucana">Araucana</a>
+                <a class="nav-link active customNav" aria-current="page" href="#australorp">Australorp</a>
+                <a class="nav-link active customNav" aria-current="page" href="#bantam">Japanese Bantam</a>
+                <a class="nav-link active customNav" aria-current="page" href="#cochin">Cochin</a>
+                <a class="nav-link active customNav" aria-current="page" href="#wyandotte">Wyandotte</a>
+                <a class="nav-link active customNav" aria-current="page" href="#jersey">Jersey Giant</a>
+                <a class="nav-link active customNav" aria-current="page" href="#burmese">Burmese</a>
+                <a class="nav-link active customNav" aria-current="page" href="#kadaknath">Kadaknath</a>
+                <a class="nav-link active customNav" aria-current="page" href="#brown">ISA Brown</a>
+                <a class="nav-link active customNav" aria-current="page" href="#padovana">Padovana</a>
+                <a class="nav-link active customNav" aria-current="page" href="#frizzle">Frizzle</a>
+                <a class="nav-link active customNav" aria-current="page" href="#feral">Feral</a>
+                <a class="nav-link active customNav" aria-current="page" href="#serama">Serama</a>
+                <a class="nav-link active customNav" aria-current="page" href="#nake">Naked Neck</a>
+                <a class="nav-link active customNav" aria-current="page" href="#new-red">New Hemisphere Red</a>
+                <a class="nav-link active customNav" aria-current="page" href="#fayoumi">Fayoumi</a>
+                <a class="nav-link active customNav" aria-current="page" href="#dong">Dong Tao</a>
+                <a class="nav-link active customNav" aria-current="page" href="#barnevelder">Barnevelder</a>
+                <a class="nav-link active customNav" aria-current="page" href="#amrock">Amrock</a>
+                <a class="nav-link active customNav" aria-current="page" href="#sundheimer">Sundheimer</a>
+                <a class="nav-link active customNav" aria-current="page" href="#sulmtaler">Sulmtaler</a>
+                <a class="nav-link active customNav" aria-current="page" href="#sebright">Sebright</a>
+                <a class="nav-link active customNav" aria-current="page" href="#kuroiler">Kuroiler</a>
+                <a class="nav-link active customNav" aria-current="page" href="#legbar">Legbar</a>
+                <a class="nav-link active customNav" aria-current="page" href="#vorwerk">Vorwerk</a>
+                <a class="nav-link active customNav" aria-current="page" href="#indian-giant">Indian Giant</a>
+                <a class="nav-link active customNav" aria-current="page" href="#green-hen">Green-legged Hen</a>
+                <a class="nav-link active customNav" aria-current="page" href="#pekin">Pekin</a>
+                <a class="nav-link active customNav" aria-current="page" href="#faverolles">Faverolles</a>
+                <a class="nav-link active customNav" aria-current="page" href="#swedish">Swedish Flower Hen</a>
+                <a class="nav-link active customNav" aria-current="page" href="#welsummer">Welsummer</a>
+                <a class="nav-link active customNav" aria-current="page" href="#kennhuhn">Bielefelder Kennhuhn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Navbar-->
+    <br><br><br>
+    <div class="container-fluid">
+        <div id="#top"></div>
+
+        <div class="alert alert-dark" role="alert" id="info" style="text-align: center;">
+          <h1 id="p"><u>Welcome to Dr. Chickens Expert</u></h1>
+          Dr. Chickens Expert: In This website, you will learn about every type of chicken (51 types). You can also find that which of them is yours!
+          <br> <u>Since:</u> 2022 | <u>Made in:</u> Pakistan</p>
+          <br> <img src="Assets/favicon.png" class="logo">
+        </div> <br>
+
+        <!--Context-->
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="chickens"><u>About Chickens</u></h2>
+          <p>The chicken is a domesticated junglefowl species, with attributes of wild species such as the grey and the Ceylon junglefowl that are originally from Southeastern Asia. Rooster or cock is a term for an adult male bird, and a younger male may be called a cockerel. <a href="https://www.wikipedia.org/">Text by wikipedia</a></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="native"><u>Native Chickens</u></h2>
+          <p>Chickens have lived in rural villages throughout Africa and the Pacific for centuries and have adapted to the local environment and conditions. These village chickens are referred to as 'indigenous', 'native', 'local' or 'traditional' poultry and are easy to distinguish from standardised commercial or heritage breeds. <a href="https://kyeemafoundation.org/">Text by kyeemafoundation</a> </p>
+          <p>With any luck and barring any genetic issues, These chickens should live for 8-12 years, with some chickens being reported to have lived for 15-20 years! <a href="https://www.fresheggsdaily.blog/">Text by Fresh eggs daily.blog</a></p>
+          <p>Each hen will lay an average of 150 eggs annually. Only 75% or about 112 eggs from each hen will be allowed to hatch from which 95% or about 106 will reach market.</p>
+          <p>Native chickens should be provided with ample housing structures where they can roost during the night, find shelter during rainy weather, and build nests when they are of laying age. Provide adequate range type housing for growers and breeders with 1-2 square meters per bird. <a href="https://mb.com.ph/">Text by Manila Bulettin</a> </p>
+          <p>Despite the popularity of broiler chicken in urban or urbanizing areas, native chicken remains a preferred alternative meat because of its eating quality (distinctively savory, lean and finely textured meat) and health benefits despite its premium price. <a href="https://www.da.gov.ph/">Text by Department of Agriculture</a> </p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="silkie"><u>Silkie Chickens:</u></h2>
+          <p>The Silkie (also known as the Silky or Chinese silk chicken) is a breed of chicken named for its atypically fluffy plumage, which is said to feel like silk.</p>
+          <p>Skin color: black or brown or blue</p>
+          <p>Egg color: cream or tinted</p>
+          <p>Egg size: Tiny</p>
+          <p>Recognized variety: Bearded Black, Bearded Blue, Bearded Buff</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Silkie.png" alt="silkie"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="broiler"><u>Broilers:</u></h2>
+          <p>A broiler is any chicken that is bred and raised specifically for meat production. Most commercial broilers reach slaughter weight between four and six weeks of age, although slower growing breeds reach slaughter weight at approximately 14 weeks of age. Typical broilers have white feathers and yellowish skin.</p>
+          <p>Skin color: Yellow, brown, black or mixed</p>
+          <p>Use: Meat/feathers (Primary use: meat)</p>
+          <p>Origin: United States</p>
+          <p>Origin: United States</p>
+          <p>Egg color: white/light brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Broilers.png" alt="broiler"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="brahma"><u>Brahma:</u></h2>
+          <p>A Brahma chicken holds the record as being the heaviest chicken known. <a href="https://a-z-animals.com/">Text by A-Z Animals</a></p>
+          <p>The Brahma is an American breed of chicken. It was developed in the United States from birds imported from the Chinese port of Shanghai, and was the principal American meat breed from the 1850s until about 1930.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 150</p>
+          <p>Egg size: Large</p>
+          <p>Temperament: Calm</p>
+          <p>Recognized variety: Buff, Dark, Light</p>
+          <p>Egg color: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Brahma.png" alt="brahma"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="plymouth"><u>Plymouth Rock Chicken</u></h2>
+          <p>Plymouth Rock chickens don't only make good layers. They are also considered a heavyweight chicken, with males weighing almost 10 pounds. These large bodied birds are excellent meat chickens. <a href="https://www.heritageacresmarket.com/">Text by Heritage Acres Market LLC.</a></p>
+          <p>The Plymouth Rock is an American breed of domestic chicken. It was first seen in Massachusetts in the nineteenth century, and for much of the early twentieth century was the most widely kept chicken breed in the United States. It is a dual-purpose chicken, raised both for its meat and for its brown eggs.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (Annual): 210</p>
+          <p>Egg size: Large</p>
+          <p>Temperament: Calm</p>
+          <p>Recognized variety: Blue, Black, White</p>
+          <p>Egg color: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Plymouth.png" alt="plymouth"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="sussex"><u>Sussex</u></h2>
+          <p>The Sussex is a British breed of dual-purpose chicken, reared both for its meat and for its eggs. Eight colours are recognised for both standard-sized and bantam fowl. A breed association, the Sussex Breed Club, was organised in 1903.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 250</p>
+          <p>Egg size: Large</p>
+          <p>Temperament: docile, Alert</p>
+          <p>Recognized variety: Red, White, Silve.</p>
+          <p>Egg color: Cream, Tan, Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Sussex.png" alt="sussex"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="ayam-k"><u>Ayam Kampong</u></h2>
+          <p>The Ayam Kampong or Ayam Kampung is the chicken breed reported from Indonesia and Malaysia. The name means simply "free-range chicken" or literally "village chicken".</p>
+          <p>Origin: Indonesia, Malaysia</p>
+          <p>Egg color: white and light brown</p>
+          <p>Other names: Ayam Kampung</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p>The eggs are quite large, and they are cream-colored with a very slight pink tint (not black). <a href="https://www.thehappychickencoop.com/">Text by The Happy Chicken Coop.</a></p>
+          <p><img src="Assets/Ayam K.png" alt="ayam-k"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="ameraucana"><u>Ameraucana</u></h2>
+          <p>The Ameraucana is an American breed of domestic chicken. It was developed in the United States in the 1970s, and derives from Araucana chickens brought from Chile. There are both standard-sized and bantam versions.</p>
+          <p>Primary use: Egg</p>
+          <p>Egg production (annual): 250</p>
+          <p>Temperament: Broody</p>
+          <p>Recognized variety: Wheaten, Blue, Black, White, Silver</p>
+          <p>Egg color: Blue</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Ameraucana.png" alt="ameraucana"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="leghorn"><u>Leghorn</u></h2>
+          <p>The Leghorn, Italian: Livorno or Livornese, is a breed of chicken originating in Tuscany, in central Italy. Birds were first exported to North America in 1828 from the Tuscan port city of Livorno, on the western coast of Italy.</p>
+          <p>Egg colour: white</p>
+          <p>Use: eggs</p>
+          <p>Skin colour: yellow: 114</p>
+          <p>Egg production (annual): 280</p>
+          <p>Temperament: Nervous</p>
+          <p>Recognized variety: Rose Comb Black, Rose Comb Buff</p>
+          <p>Egg color: White</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Leghorn.png" alt="leghorn"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="ayam-c"><u>Ayam Cemani</u></h2>
+          <p>The Ayam Cemani is a rare breed of chicken from Indonesia. They have a dominant gene that causes hyperpigmentation, making the chicken mostly black, including feathers, beak, and internal organs.</p>
+          <p>Primary use: ornamental</p>
+          <p>Egg production (annual): 80</p>
+          <p>Egg size: Small</p>
+          <p>Recognized variety: Black</p>
+          <p>Egg color: White</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p>Price of chick: $50 each</p>
+          <p>Breeding pair: $5000 each pair</p>
+          <p><a href="https://www.chickensandmore.com/">Text by Chickens and More.</a></p>
+          <p><img src="Assets/Ayam C.png" alt="ayam-c"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="polish"><u>Polish Chicken</u></h2>
+          <p>The Polish or Poland is a European breed of crested chickens known for its remarkable crest of feathers. The oldest accounts of these birds come from The Netherlands; their exact origins are unknown, however. In addition to combs, they are adorned with large crests that nearly cover the entirety of the head.</p>
+          <p>Primary use: Exhibition</p>
+          <p>Egg production (annual): 100</p>
+          <p>Egg size: Tiny</p>
+          <p>Recognized variety: Bearded Buff Laced, Bearded Golden</p>
+          <p>Egg color: White</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Polish.png" alt="polish"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="rhode-red"><u>Rhode Island Red</u></h2>
+          <p>The Rhode Island Red is an American breed of domestic chicken. It is the state bird of Rhode Island. It was developed there and in Massachusetts in the late nineteenth century, by cross-breeding birds of Oriental origin such as the Malay with brown Leghorn birds from Italy.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 260</p>
+          <p>Egg size: Extra Large</p>
+          <p>Temperament: Hardy</p>
+          <p>Recognized variety: Rose Comb, Single Comb</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Rhode.png" alt="rhode-red"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="indian-g"><u>Indian Game</u></h2>
+          <p>The Indian Game is a British breed of game chicken, now reared either for meat or show. It originated in the early nineteenth century in the counties of Cornwall and Devon in south-west England. It is a heavy, muscular bird with an unusually broad breast; the eggs are brown.</p>
+          <p>Primary use: Meat</p>
+          <p>Egg production (annual): 180</p>
+          <p>Egg size: Small</p>
+          <p>Temperament: Aggressive</p>
+          <p>Recognized variety: Black, White</p>
+          <p>Egg color: Light Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Indian Game.png" alt="indian-g"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="marans"><u>Marans</u></h2>
+          <p>The Marans, French: Poule de Marans, is a French breed of dual-purpose chicken, reared both for meat and for its dark brown eggs. It originated in the town of Marans, in the département of Charente-Maritime, in the Nouvelle-Aquitaine region of south-western France.</p>
+          <p>Primary use: Egg (Other use: Meat)</p>
+          <p>Egg production (annual): 150</p>
+          <p>Egg size: Large.</p>
+          <p>Temperament: docile, Quiet</p>
+          <p>Recognized variety: Birchen, Black, Black Copper, Black Tailed Buff, Columbian, Cuckoo, Golden Cuckoo, Wheaten, White</p>
+          <p>Egg color: Dark Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Marans.png" alt="marans"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="orpington"><u>Orpington</u></h2>
+          <p>The Orpington is a British breed of chicken. It was bred in the late nineteenth century by William Cook of Orpington, Kent, in south-east England. It was intended to be a dual-purpose breed, to be reared both for eggs and for meat, but soon became exclusively a show bird.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 160</p>
+          <p>Egg size: Large</p>
+          <p>Temperament: Calm</p>
+          <p>Recognized variety: Blue, Black, White</p>
+          <p>Egg color: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Orpington.png" alt="orpingtion"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="asil"><u>Asil Chicken</u></h2>
+          <p>The Asil or Aseel is an Indian breed or group of breeds of game chicken. It is distributed in much of India, particularly in the states of Tamil Nadu, Andhra Pradesh, Chhattisgarh and Odisha; it has been exported to several other countries. Similar fowl are found throughout much of Southeast Asia.</p>
+          <p>Egg size: Small</p>
+          <p>Temperament: Aggressive</p>
+          <p>Recognized variety: Wheaten, White, Red Wheaten, Fawn, Grey</p>
+          <p>Egg color: Light Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Asil.png" alt="asil"></p>
+        </div>
+        
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="shamo"><u>Shamo Chickens</u></h2>
+          <p>Shamo is an overall designation for gamefowl in Japan. There are seven recognised breeds of Shamo chicken in Japan, all of which are designated Natural Monuments of Japan. The Shamo breeds are thought to derive from fighting chickens of Malay type brought from Thailand in the early part of the 17th century.</p>
+          <p>Primary use: Exhibition</p>
+          <p>Egg size: Medium</p>
+          <p>Temperament: docile</p>
+          <p>Recognized variety: Wheaten, Black</p>
+          <p>Egg color: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Shamo.png" alt="shamo"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="lohman"><u>Lohman Brown</u></h2>
+          <p>he Lohmann Brown is a variety of chicken, raised specifically for egg-laying productivity. It is of crossbreed origin, selectively bred from lines of Rhode Island breed and White Rock breeds. They start to lay at about 19 weeks, producing up to 320 eggs to an age of 72 weeks.</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p>Produces 380 eggs annually.</p>
+          <p><a href="https://www.thehappychickencoop.com/">Text by The Happy Chicken Coop</a></p>
+          <p>The Lohmann Brown is very friendly.</p>
+          <p><a href="https://www.pipinchicksilkies.com/">Text by Pipinchick silkies.</a></p>
+          <p><img src="Assets/Leghorn Brown.png" alt="lohman brown"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="araucana"><u>Araucana</u></h2>
+          <p>The Araucana is a breed of domestic chicken from Chile. Its name derives from the Araucanía region of Chile where it is believed to have originated. It lays blue-shelled eggs, one of very few breeds that do so. Breed standards for the Araucana vary from country to country.</p>
+          <p>Primary use: Egg</p>
+          <p>Recognized variety: Black, White</p>
+          <p>Egg color: Blue</p>
+          <p>Origin: Chile</p>
+          <p>Skin colour: white</p>
+          <p>Egg production: 250 blue or green eggs per year.</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Araucana.png" alt="araucana"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="australorp"><u>Australorp</u></h2>
+          <p>The Australorp is a chicken breed of Australian origin, developed as a utility breed with a focus on egg laying and is famous for laying more than 300 eggs.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 260</p>
+          <p>Egg size: Large</p>
+          <p>Temperament: docile, Hardy</p>
+          <p>Recognized variety: Blue, Black, White</p>
+          <p>Egg color: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Australorp.png" alt="australorp"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="bantam"><u>Japneese Bantam</u></h2>
+          <p>The Japanese Bantam or Chabo is a Japanese breed of ornamental chicken. It is a true bantam breed, meaning that it has no large fowl counterpart. It characterised by very short legs and a large upright tail that reaches much higher than the head of the bird.</p>
+          <p>Primary use: Exhibition</p>
+          <p>Recognized variety: Wheaten, Black, White</p>
+          <p>Egg color: Cream, Tinted</p>
+          <p>Origin: Japan</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p>Japanese bantam lay around 75 lovely tiny eggs per year.</p>
+          <p><a href="https://www.backyardchickencoops.com.au/">Text by Backyard Chicken Coops.</a></p>
+          <p><img src="Assets/Japneese.png" alt="bantam"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="cochin"><u>Cochin</u></h2>
+          <p>The Cochin is a breed of large domestic chicken. It derives from large feather-legged chickens brought from China to Europe and North America in the 1840s and 1850s. It is reared principally for exhibition. It was formerly known as Cochin-China.</p>
+          <p>Primary use: Exhibition</p>
+          <p>Egg production (annual): 100</p>
+          <p>Egg size: Medium</p>
+          <p>Temperament: Calm, friendly, Quiet</p>
+          <p>Recognized variety: Red, Blue, Black, White</p>
+          <p>Egg color: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Cochin.png" alt="cochin"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="wyandotte"><u>Wyandotte</u></h2>
+          <p>The Wyandotte is an American breed of chicken developed in the 1870s. It was named for the indigenous Wyandot people of North America. The Wyandotte is a dual-purpose breed, kept for its brown eggs and its yellow-skinned meat. It is a popular show bird, and has many color variants.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 210</p>
+          <p>Egg size: Large</p>
+          <p>Recognized variety: Red, Blue, Black, White</p>
+          <p>Egg color: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Wyandotte.png" alt="wyandotte"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="jersey"><u>Jersey-Giant</u></h2>
+          <p>The Jersey Giant is an American breed of domestic chicken. It was created in Burlington County, New Jersey, in the late 19th century. As the name suggests, it is a large breed, and is among the heaviest of all chicken breeds.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 260</p>
+          <p>Egg size: Large</p>
+          <p>Temperament: docile, Calm</p>
+          <p>Recognized variety: Blue, Black, White</p>
+          <p>Egg color: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Jersey.png" alt="jerseu giant"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="burmese"><u>Burmese</u></h2>
+          <p>The Burmese or Burmese Bantam is a British breed of bantam chicken. It apparently originated in Myanmar, formerly Burma, in the latter part of the nineteenth century. By the time of the First World War it was thought to be extinct.</p>
+          <p>Origin: Myanmar (Burma), United Kingdom</p>
+          <p>Higher classification: Red junglefowl</p>
+          <p>Rank: Animal breed</p>
+          <p>Egg colour: white</p>
+          <p>Use: ornamental</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Burmese.png" alt="burmese"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="kadaknath"><u>Kadaknath</u></h2>
+          <p>Kadaknath, also called Kali Masi, is an Indian breed of chicken. They originated from Dhar and Jhabua, Madhya Pradesh. These birds are mostly bred by the rural and tribals. There are three varieties: jet black, golden and pencilled.</p>
+          <p>Origin: Madhya Pradesh</p>
+          <p>Egg color: Cream</p>
+          <p>Skin color: Greyish Black with a Turquoise glow</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p>Difference between Ayam Cemani and Kadaknath:</p>
+          <p>Ayam Cemani has pointier combs. Kadaknath chickens come in other colors, while Ayam Cemani only comes in black. The Kadaknath is a world-famous black meat bird. Some say it's tastier and more protein-packed compared to other chickens.</p>
+          <p><a href="https://www.ecopeanut.com/">Text by Eco Peanut</a></p>
+          <p><img src="Assets/Kadaknath.png" alt="Kadaknath"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="brown"><u>ISA-Brown</u></h2>
+          <p>The ISA Brown is a crossbreed of chicken, with sex-linked coloration. It is thought to have been the result of a complex series of crosses including but not limited to Rhode Island Reds and Rhode Island Whites, and contains genes from a wide range of breeds, the list of which is a closely guarded secret.</p>
+          <p>Origin: France</p>
+          <p>Egg color: brown</p>
+          <p>Other names: Hubbard Brown, Brown, Red Sexlinks</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p>They can lay upto 300 brown eggs per year</p>
+          <p><a href="https://www.somerzby.com.au/">Text by Somerzby.</a></p>
+          <p><img src="Assets/ISA Brown.png" alt="ISA-Brown"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="padovana"><u>Padovana</u></h2>
+          <p>The Padovana or Padovana dal gran ciuffo is an ancient Italian breed of small crested and bearded chicken. It originates in, and is named for, the city and surrounding province of Padua, in the Veneto region of north-eastern Italy.</p>
+          <p>Primary use: ornamental</p>
+          <p>Egg size: Small</p>
+          <p>Temperament: Confident</p>
+          <p>Recognized variety: Black, White, Lavender</p>
+          <p>Egg color: Cream, Light Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Padovana.png" alt="Padovana"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="frizzle"><u>Frizzle</u></h2>
+          <p>The Frizzle is a breed of chicken with characteristic curled or frizzled plumage. While the frizzle gene can be seen in many breeds, such as the Pekin and Polish, the Frizzle is recognised as a distinct breed in a number of European countries and Australia.</p>
+          <p>Primary use: eggs</p>
+          <p>Egg size: Small</p>
+          <p>Temperament: Hardy</p>
+          <p>Recognized variety: Blue, Black, White</p>
+          <p>Egg color: White, Tinted</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Frizzle.png" alt="Frizzle"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="feral"><u>Feral</u></h2>
+          <p>Feral chickens are derived from domestic chickens (Gallus gallus domesticus) who have returned to the wild. Like the red junglefowl (the closest wild relative of domestic chickens), feral chickens will roost in bushes in order to avoid predators at night.</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Feral.png" alt="Feral"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="serama"><u>Serama</u></h2>
+          <p>The Serama, also called the Malaysian Serama, is a bantam breed of chicken originating in Malaysia within the last 50 years.</p>
+          <p>Primary use: Exhibition</p>
+          <p>Temperament: Confident, Calm</p>
+          <p>Recognized variety: Wheaten, Chocolate, Blue, Black, White, Gray</p>
+          <p>Origin: Malaysia</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p>Serama hens are capable of laying up to four eggs a week (200-250 per year)</p>
+          <p><a href="https://www.chickensandmore.com/">Text by Chickens and More.</a></p>
+          <p><img src="Assets/Serama.png" alt="Serama"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="nake"><u>Naked-Neck</u></h2>
+          <p>The Naked Neck is a breed of chicken that is naturally devoid of feathers on its neck and vent. The breed is also called the Transylvanian Naked Neck, as well as the Turken. The name "Turken" arose from the mistaken idea that the bird was a hybrid of a chicken and the domestic turkey.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 100</p>
+          <p>Egg size: Medium</p>
+          <p>Temperament: Cold hardy</p>
+          <p>Recognized variety: Black, Blue, Buff, Cuckoo, Red, White</p>
+          <p>Egg color: Light Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Naked-N.png" alt="Naked Neck"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="new-red"><u>New Hemisphere Red</u></h2>
+          <p>The New Hempshire Red or New Hampshire is an American breed of chicken. It was developed in the early twentieth century in the state of New Hampshire by selective breeding of Rhode Island Red stock; no other breed was involved. It is fast-growing, early-maturing, quick-feathering, and yields a meaty carcass.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 280</p>
+          <p>Egg size: Large</p>
+          <p>Temperament: docile, Hardy</p>
+          <p>Egg colour: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Hamisphere.png" alt="New Hemisphere Red"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="fayoumi"><u>Fayoumi</u></h2>
+          <p>The Fayoumi or Egyptian Fayoumi is an Egyptian breed of chicken. It originates from - and is named for - the governorate of Fayoum, which lies south-west of Cairo and west of the Nile. It is believed to be an ancient breed.</p>
+          <p>Primary use: Egg</p>
+          <p>Egg production (annual): 150</p>
+          <p>Egg size: Medium</p>
+          <p>Temperament: Flighty</p>
+          <p>Recognized variety: Silver</p>
+          <p>Egg color: Tinted, Off-White</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Fayoumi.png" alt="Fayoumi"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="dong"><u>Dong Tao</u></h2>
+          <p>Dong Tao chicken, also called Dragon Chicken, is a rare Vietnamese chicken breed with enlarged feet, that originates from the village Đông Tảo in Khoái Châu District near Hanoi. Dong Tao chickens are valued as a delicacy in Vietnam, and they were once bred exclusively to be served to the royal family and mandarins.</p>
+          <p>Origin: Khoái Châu</p>
+          <p>Other names: Dragon Chicken; gà Đông Tảo</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Dong Tao.png" alt="Dong Tao"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="barnevelder"><u>Barnevelder</u></h2>
+          <p>The Barnevelder is a Dutch breed of domestic chicken. It resulted from cross-breeding between local Dutch chickens and various "Shanghai" birds imported from Asia to Europe in the later part of the nineteenth century; these may have been of Brahma, Cochin or Croad Langshan type.</p>
+          <p>Primary use: Egg</p>
+          <p>Egg production (annual): 180</p>
+          <p>Egg size: Large</p>
+          <p>Temperament: Lively, friendly, Quiet, Active</p>
+          <p>Recognized variety: Blue, Silver</p>
+          <p>Egg color: Dark Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Barnevelder.png" alt="Barnevelder"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="amrock"><u>Amrock</u></h2>
+          <p>The Amrock is a Chicken breed, which got developed in America, and has the same ancestry lines of the barred Plymouth Rock. The main differences between the two breeds is mainly the productive abilities. It can be said that the Amrock is a utility form of the barred Plymouth Rock and is being raised mostly in Europe.</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Amrock.png" alt="Amrock"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="sundheimer"><u>Sundheimer</u></h2>
+          <p>The Sundheimer has a single comb, red earlobes, and whitish-yellow legs with light feathering, which extends to cover the outer toe. They are tame birds indeed, that grow and fatten rapidly, and provide meat of high quality. The Sundheimer is available only in the columbian color-variety.</p>
+          <p><a href="https://www.domesticforest.com/">Text by Domestic Forest.</a></p>
+          <p><img src="Assets/Sundheimer.png" alt="Sundheimer"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="sulmtaler"><u>Sulmtaler</u></h2>
+          <p>The Sulmtaler is an Austrian breed of domestic chicken. It originates in the Sulmtal, the valley of the Sulm river, in southern Styria, in the south-east of Austria, and takes its name from that valley.</p>
+          <p>Primary use: dual-purpose meat/eggs</p>
+          <p>Egg production (annual): 140</p>
+          <p>Egg size: Medium</p>
+          <p>Temperament: Hardy</p>
+          <p>Recognized variety: White</p>
+          <p>Egg color: Cream, Light Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Sulmtaler.png" alt="Sulmtaler"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="sebright">Sebright</h2>
+          <p>The Sebright is a British breed of bantam chicken. It is a true bantam - a miniature bird with no corresponding large version – and is one of the oldest recorded British bantam breeds.</p>
+          <p>Primary use: Exhibition</p>
+          <p>Egg production (annual): 52</p>
+          <p>Egg size: Small</p>
+          <p>Temperament: friendly, Active</p>
+          <p>Recognized variety: Silver, Gold</p>
+          <p>Egg color: White</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Sebright.png" alt="Sebright"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="kuroiler"><u>Kuroiler</u></h2>
+          <p>The Kuroiler is a hybrid breed of chicken developed by the Keggfarms Group in Gurgaon, Haryana. Kuroilers are derived from crossing either coloured broiler males with Rhode Island Red females, or, White Leghorn males crossed with female Rhode Island Reds.</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Kuroiler.png" alt="Kuroiler"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="legbar"><u>Legbar</u></h2>
+          <p>The Legbar is a rare British auto-sexing breed of chicken. It was created in the early twentieth century by Reginald Crundall Punnett and Michael Pease at the Genetical Institute of Cambridge University.</p>
+          <p>Primary use: eggs</p>
+          <p>Egg production (annual): 180</p>
+          <p>Egg size: Medium</p>
+          <p>Temperament: Forager</p>
+          <p>Recognized variety: Cream, Silver, Gold</p>
+          <p>Egg color: Blue, Green</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Legbar.png" alt="Legbar"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="vorwerk"><u>Vorwerk</u></h2>
+          <p>The Vorwerk is a breed of chicken originating in Germany. Though it is unrelated to the German company which produces the Vorwerk vacuum cleaner, it is the only chicken to share its name with a brand of household appliance. A rare fowl, it has distinctive black-and-gold plumage.</p>
+          <p>Primary use: Exhibition</p>
+          <p>Egg production (annual): 170</p>
+          <p>Egg size: Medium</p>
+          <p>Temperament: Active, Alert</p>
+          <p>Egg color: Cream</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Vorwerk.png" alt="Vorwerk"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="indian-giant"><u>Indian Giant</u></h2>
+          <p>Índio Gigante, also known as Indian Giant, is a breed of domestic chicken originally developed in Brazil. It is one of the largest chicken breeds in the world, especially in terms of height.</p>
+          <p>Egg color: white, beige, red, blue or green</p>
+          <p>Skin color: yellow</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Indian 2.png" alt="Indian Giant"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="green-hen"><u>Green Legged Partridge Hen</u></h2>
+          <p>The Green-legged Partridge is an old breed of chicken indigenous to Poland. It is characterised by the unusual reseda green colour of the shanks.</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Green.png" alt="Green"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="pekin"><u>Pekin</u></h2>
+          <p>The Pekin Bantam is a British breed of bantam chicken. It derives from birds brought to Europe from China in the nineteenth century, and is named for the city of Peking where it was believed to have originated. It is a true bantam, with no corresponding large fowl.</p>
+          <p>Primary use: Egg, Exhibition</p>
+          <p>Egg size: Small</p>
+          <p>Temperament: docile</p>
+          <p>Recognized variety: Blue, Black, White, Lavender</p>
+          <p>Egg color: Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Pekin.png" alt="Pekin"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="faverolles"><u>Faverolles</u></h2>
+          <p>The Faverolles is a French breed of chicken. The breed was developed in the 1860s in north-central France, in the vicinity of the villages of Houdan and Faverolles. The breed was given the name of the latter village and the singular is thus also Faverolles, not Faverolle. The final "s" is silent in French.</p>
+          <p>Primary use: Egg, Meat</p>
+          <p>Egg production (annual): 240</p>
+          <p>Egg size: Medium</p>
+          <p>Temperament: docile, Gentle</p>
+          <p>Recognized variety: White</p>
+          <p>Egg color: Light Brown, Pinkish</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Faverolles.png" alt="Faverolles"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="swedish"><u>Swedish Flower Hen</u></h2>
+          <p>The Swedish Flower Hen, Swedish: Skånsk Blommehöna, is an endangered traditional Swedish breed of domestic chicken. It is one of eleven traditional chicken breeds in Sweden.</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Swedish.png" alt="Swedish Flower Hen"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="welsummer"><u>Welsummer</u></h2>
+          <p>The Welsummer or Welsumer is a Dutch breed of domestic chicken. It originates in the small village of Welsum, in the eastern Netherlands. It was bred at the beginning of the twentieth century from local fowls of mixed origin: Rhode Island Reds, Barnevelders, Partridge Leghorns, Cochins, and Wyandottes.</p>
+          <p>Primary use: Egg</p>
+          <p>Egg production (annual): 180</p>
+          <p>Egg size: Large</p>
+          <p>Temperament: friendly, intelligent</p>
+          <p>Recognized variety: Gold Duckwing, Partridge, Silver Duckwing</p>
+          <p>Egg color: Dark Brown</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Welsummer.png" alt="Welsummer"></p>
+        </div>
+
+        <div class="alert alert-dark" role="alert" id="info">
+          <h2 id="kennhuhn"><u>Bielefelder Kennhuhn</u></h2>
+          <p>The Bielefelder Kennhuhn or Bielefelder is a German breed of domestic chicken. It was developed in the area of Bielefeld in the 1970s by Gerd Roth, who cross-bred birds of Malines and Welsumer stock with American Barred Rocks to create the breed.</p>
+          <p><a href="https://www.wikipedia.org/">Text by wikipedia.</a></p>
+          <p><img src="Assets/Last one.png" alt="Bielefelder Kennhuhn"></p>
+        </div>
+        <!--Context--><br>
+
+      <div class="alert alert-dark" id="footer">
+        <h2><u>Thanks to AK-Dev</u></h2>
+        Website made by <a href="https://ak-dev.is-a.dev" target="_blank">AK-Dev.</a>. <br>
+        <div class="customNav"><a href="#top" style="color: white; ">Go to Top</a></div>
+      </div>
+    </div>
+
+    <!--Modal-->
+    <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Advertisement ✨</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Support AK Dev. The creater of this website, to help him make more projects like this! <br />
+          <a href="https://ak-dev.is-a.dev" target="_blank">Visit AK Dev</a>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!--Script-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
